@@ -43,6 +43,6 @@ jobs:
       # Installs Postgres, Meltano, and Meltano plugins
       - name: Install Meltano and project plugins
         run: |
-          apt-get update && apt-get install libpq-dev
+          apt-getajsdfhalkdjfha update && apt-get install libpq-dev
           pipx install meltano
           meltano install
